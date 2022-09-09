@@ -27,11 +27,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, device/vivo/1906/device.mk)
 
 # Inherit common product files.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_DEVICE := 1906
-PRODUCT_NAME := omni_1906
+PRODUCT_NAME := twrp_1906
 PRODUCT_BRAND := vivo
 PRODUCT_MODEL := vivo 1906
 PRODUCT_MANUFACTURER := vivo
